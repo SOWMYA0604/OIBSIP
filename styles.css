@@ -1,0 +1,139 @@
+/* Your previous CSS code here */
+
+/* Additional styling for advanced features */
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav li {
+    margin: 10px 0;
+  }
+  .hero-content {
+    text-align: center;
+  }
+  .project-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+}
+
+/* Project Cards */
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.project-card h3 {
+  margin: 10px 0;
+}
+
+.project-card p {
+  color: #666;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+header {
+  
+  background-size: cover; 
+  background-position: center; 
+  padding: 20px;
+  
+}
+/* Skills List */
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}/* Add this CSS in your styles.css file or inside <style> tag in the head section of your HTML */
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image {
+  flex: 0 0 40%; /* Adjust the percentage to control the width of the image */
+  text-align: center; /* Align the image to the right side */
+}
+
+.hero-image img {
+  max-width: 10%;
+  height: auto;
+}
+
+/* Add media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content, .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.skills-list li {
+  padding: 5px 15px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+}
+
+/* Contact Form */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #555;
+}
