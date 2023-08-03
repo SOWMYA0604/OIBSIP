@@ -1,0 +1,137 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('https://wallpapercave.com/wp/wp1879250.jpg');
+    background-size: cover; 
+    background-position: center; 
+    padding: 80px;
+    
+}
+.header-with-blurred-bg {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.image-container {
+    width: 2px;
+    max-width: 10%; 
+    height: auto; 
+   
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}mark {
+    background-color: rgb(52, 137, 73);
+    color: white;
+    font-weight: bold;
+  }
+
+body, html {
+    height: 100%; 
+    margin: 0;
+}
+.container {
+    display: flex; 
+    height: 100%;
+}
+
+.column {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.image-container img {
+    width: 250px;
+    height: auto;
+    box-shadow: 2px 2px 2px rgba(219, 11, 11, 0.2); 
+    border: 2px solid #333; 
+    border-radius: 10px;
+    margin-right: 10px; 
+
+}
+
+
+.image-with-text {
+    display: flex; 
+    align-items: center; 
+    padding-right: 20px;
+}
+
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+.text-container pre {
+    color: #271b1b; 
+}
+.larger-text {
+    font-size: 20px; 
+}
+.large-text {
+    font-size: 25px; /
+}
+footer {
+    background-color: #1dcf53;
+    color: #0e0d0d;
+    text-align: center;
+    padding: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    width: 300px; 
+    height: 200px;
+}
+
+#movable-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: grab;
+}
+/* Your existing CSS styles */
+/* ... */
+
+/* Table of Contents styles *//* Your existing CSS styles */
+/* ... */
+
+/* Style the table container and fix it in place */
+/* Your existing CSS styles */
+/* ... */
+
+/* Style the table container */
+/* Your existing CSS styles */
+/* ... */
+
+/* Style the container for the table */
+.table-container {
+    flex: 1; /* Make the table container flexible to take available space */
+    margin-left: 20px; /* Add some space between the main content and the table */
+}
+
+/* Style the table */
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+
