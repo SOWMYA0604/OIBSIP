@@ -20,7 +20,7 @@ function convertTemperature() {
     document.getElementById('result').textContent = result;
   }
   
-  // Attach event listener to the "Convert" button
+
   const convertButton = document.getElementById('convertButton');
   convertButton.addEventListener('click', convertTemperature);
   
