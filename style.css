@@ -102,8 +102,8 @@ footer {
     cursor: grab;
 }
 .table-container {
-    flex: 1; /* Make the table container flexible to take available space */
-    margin-left: 20px; /* Add some space between the main content and the table */
+    flex: 1; 
+    margin-left: 20px;
 }
 
 .table-container table {
