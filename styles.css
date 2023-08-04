@@ -1,8 +1,4 @@
-/* Your previous CSS code here */
 
-/* Additional styling for advanced features */
-
-/* Responsive design */
 @media screen and (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -21,7 +17,6 @@
   }
 }
 
-/* Project Cards */
 .project-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -61,14 +56,13 @@ header {
   padding: 20px;
   
 }
-/* Skills List */
 .skills-list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-}/* Add this CSS in your styles.css file or inside <style> tag in the head section of your HTML */
+}
 .hero {
   display: flex;
   align-items: center;
@@ -80,8 +74,8 @@ header {
 }
 
 .hero-image {
-  flex: 0 0 40%; /* Adjust the percentage to control the width of the image */
-  text-align: center; /* Align the image to the right side */
+  flex: 0 0 40%; 
+  text-align: center; 
 }
 
 .hero-image img {
@@ -89,7 +83,6 @@ header {
   height: auto;
 }
 
-/* Add media query for responsiveness */
 @media screen and (max-width: 768px) {
   .hero {
     flex-direction: column;
