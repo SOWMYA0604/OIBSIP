@@ -101,27 +101,11 @@ footer {
     left: 0;
     cursor: grab;
 }
-/* Your existing CSS styles */
-/* ... */
-
-/* Table of Contents styles *//* Your existing CSS styles */
-/* ... */
-
-/* Style the table container and fix it in place */
-/* Your existing CSS styles */
-/* ... */
-
-/* Style the table container */
-/* Your existing CSS styles */
-/* ... */
-
-/* Style the container for the table */
 .table-container {
     flex: 1; /* Make the table container flexible to take available space */
     margin-left: 20px; /* Add some space between the main content and the table */
 }
 
-/* Style the table */
 .table-container table {
     width: 100%;
     border-collapse: collapse;
